@@ -18,7 +18,7 @@ public class CompetitiveProfile {
     private String cfRank;
     private String cfMaxRank;
     
-    private String lcHandle;  // Added LeetCode handle field
+    private String lcHandle; 
     private int lcTotalSolved;
     private int lcTotalQuestions;
     private int lcEasySolved;

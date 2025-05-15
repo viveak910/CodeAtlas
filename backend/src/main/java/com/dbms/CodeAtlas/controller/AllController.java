@@ -31,4 +31,8 @@ public class AllController {
         }
         return ResponseEntity.ok(profiles);
     }
+    @GetMapping("/hello")
+    public String helloString(){
+        return "hello world";
+    }
 }
